@@ -1,0 +1,96 @@
+/* Empty. Add your own CSS if you like */
+.bg {
+    background-image: url('../img/a.png'); 
+    background-size: cover; 
+} 
+.p{
+    color:white;
+    font-family:Times;
+	font-size:30px;
+}
+.ikon{
+    height: 10%;
+    width: 10%;
+}
+.satir{
+    display: inline-block;
+}
+.sag{
+    float: right;
+}
+.sayac{
+    height: 50%;
+    width: 50%;
+}
+.p1{
+    color:white;
+    font-family:Times;
+	font-size:20px;
+}
+.p2{
+    color:white;
+    font-family:Times;
+	font-size:12px;
+}
+
+.transbox {
+    width:80%;
+    height:80%;
+    margin:5% 5%;
+    font-size: 16px;
+    color: white;
+ }
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  .container:hover input ~ .checkmark {
+    background-color: rgb(151, 144, 144);
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  .alt{
+      bottom: 0px;
+      position: fixed;
+  }
